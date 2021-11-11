@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>끄적끄적</title>
+  
+  <subtitle>Co-founder of my daughter, CTO of my house. iOS/macOS developer.</subtitle>
+  <link href="https://blog.mywizz.io/atom.xml" rel="self"/>
+  
+  <link href="https://blog.mywizz.io/"/>
+  <updated>2021-11-11T15:00:32.505Z</updated>
+  <id>https://blog.mywizz.io/</id>
+  
+  <author>
+    <name>김윤석</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo.io + Github Pages, 해치웠나?</title>
+    <link href="https://blog.mywizz.io/2021/11/11/hexo-io-Github-Pages-%ED%95%B4%EC%B9%98%EC%9B%A0%EB%82%98/"/>
+    <id>https://blog.mywizz.io/2021/11/11/hexo-io-Github-Pages-%ED%95%B4%EC%B9%98%EC%9B%A0%EB%82%98/</id>
+    <published>2021-11-11T14:23:18.000Z</published>
+    <updated>2021-11-11T15:00:32.505Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://hexo.io/">Hexo</a>를 Github Pages에 연결하고 도메인도 줬다. 잘 되려나?</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;를 Github Pages에 연결하고 도메인도 줬다. 잘 되려나?&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
