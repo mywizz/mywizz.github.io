@@ -177,7 +177,7 @@ a:hover {
   z-index: 999;
   bottom: 2.285714285714286rem;
   left: 50%;
-  margin-left: 23.285714285714285rem;
+  margin-left: 27.285714285714285rem;
   background-color: #14181a;
   width: 2.285714285714286rem;
   height: 2.285714285714286rem;
@@ -245,13 +245,17 @@ a:hover {
   transform: rotate(-30deg) translate(2px, 0px);
 }
 .container {
-  width: 42rem;
+  width: 50rem;
   margin: 0 auto;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0 1rem;
-  width: 100%;
+}
+@media screen and (max-width: 479px) {
+  .container {
+    width: 100%;
+  }
 }
 .header {
   padding: 1.714285714285714rem 0 1rem;
@@ -335,6 +339,7 @@ a:hover {
 }
 .about-me {
   color: #a0a0a0;
+  font-style: italic;
 }
 .navigation {
   display: -webkit-box;
@@ -718,7 +723,6 @@ footer a {
   margin: 1.142857142857143rem 0;
   -webkit-flex-basis: 50%;
   flex-basis: 50%;
-  border: 1px solid rgba(255,255,255,0.1);
 }
 @media screen and (max-width: 479px) {
   .post-archive {
@@ -735,7 +739,9 @@ footer a {
   }
 }
 .post-archive__content {
+  border: 1px solid rgba(255,255,255,0.1);
   background-color: #14181a;
+  border-radius: 0.5rem;
   padding: 1.142857142857143rem;
   display: -webkit-box;
   display: -moz-box;
@@ -744,10 +750,6 @@ footer a {
   display: box;
   display: flex;
   line-height: 1.6rem;
-  -webkit-transition: all 0.6s ease;
-  -moz-transition: all 0.6s ease;
-  -ms-transition: all 0.6s ease;
-  transition: all 0.6s ease;
 }
 .post-archive__content:hover {
   -webkit-box-shadow: 0px 10px 20px rgba(0,0,0,0.07);
