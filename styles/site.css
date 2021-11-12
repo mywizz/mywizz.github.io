@@ -137,7 +137,7 @@ a img {
   border: none;
 }
 html {
-  font-size: 14px;
+  font-size: 16px;
 }
 body {
   background-color: #1a1f22;
@@ -160,8 +160,8 @@ a:hover {
 }
 .comments {
   background-color: #14181a;
-  padding: 1.142857142857143rem;
-  margin-top: 2.285714285714286rem;
+  padding: 1rem;
+  margin-top: 2rem;
   position: relative;
   border: 1px solid rgba(255,255,255,0.1);
   border-radius: 0.5rem;
@@ -175,12 +175,12 @@ a:hover {
 #backToTop {
   position: fixed;
   z-index: 999;
-  bottom: 2.285714285714286rem;
+  bottom: 2rem;
   left: 50%;
-  margin-left: 27.285714285714285rem;
+  margin-left: 26rem;
   background-color: #14181a;
-  width: 2.285714285714286rem;
-  height: 2.285714285714286rem;
+  width: 2rem;
+  height: 2rem;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
@@ -225,7 +225,7 @@ a:hover {
 }
 #backToTop .back-arrow {
   background-color: #db4d52;
-  width: 0.8rem;
+  width: 0.7rem;
   height: 2px;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -245,7 +245,7 @@ a:hover {
   transform: rotate(-30deg) translate(2px, 0px);
 }
 .container {
-  width: 50rem;
+  width: 48rem;
   margin: 0 auto;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -258,7 +258,7 @@ a:hover {
   }
 }
 .header {
-  padding: 1.714285714285714rem 0 1rem;
+  padding: 1.5rem 0 1rem;
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
@@ -314,7 +314,7 @@ a:hover {
   height: 100%;
 }
 .author {
-  margin-left: 1.142857142857143rem;
+  margin-left: 1rem;
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
@@ -334,7 +334,7 @@ a:hover {
   padding: 0.3rem 0;
 }
 .author-name {
-  font-size: 1.428571428571428rem;
+  font-size: 1.25rem;
   font-weight: bold;
 }
 .about-me {
@@ -377,7 +377,7 @@ footer a {
   font-weight: bold;
 }
 .rights {
-  padding: 1.142857142857143rem 1rem;
+  padding: 1rem 1rem;
 }
 .about-me-mask {
   position: fixed;
@@ -417,7 +417,7 @@ footer a {
   align-items: center;
   width: 30rem;
   margin: 10rem auto;
-  padding: 2.285714285714286rem 0;
+  padding: 2rem 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -478,7 +478,7 @@ footer a {
 .article {
   border-radius: 0.5rem;
   background-color: #14181a;
-  padding: 1.142857142857143rem;
+  padding: 1rem;
   position: relative;
   border: 1px solid rgba(255,255,255,0.1);
 }
@@ -555,8 +555,8 @@ footer a {
 }
 .article li {
   line-height: 2rem;
-  margin-bottom: 1.142857142857143rem;
-  margin-left: 1.142857142857143rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
   padding-left: 0.2rem;
   color: #db4d52;
 }
@@ -570,9 +570,9 @@ footer a {
   margin: 0;
 }
 .title {
-  font-size: 18px;
+  font-size: 23.400000000000002px;
   font-weight: bold;
-  margin-bottom: 1.142857142857143rem;
+  margin-bottom: 1rem;
   line-height: 1.6rem;
 }
 .home .title {
@@ -620,12 +620,12 @@ footer a {
   display: none;
 }
 .nav {
-  margin-bottom: 4.571428571428571rem;
+  margin-bottom: 4rem;
 }
 .nav li {
   position: relative;
   color: #a0a0a0;
-  margin-bottom: 1.142857142857143rem;
+  margin-bottom: 1rem;
   line-height: 1.8rem;
 }
 .nav li a {
@@ -650,11 +650,11 @@ footer a {
   width: 4px;
   height: 4px;
   border-radius: 2px;
-  margin-right: 1.142857142857143rem;
+  margin-right: 1rem;
 }
 .excerpt {
   color: #a0a0a0;
-  margin: 1.142857142857143rem 0;
+  margin: 1rem 0;
 }
 .article-footer {
   display: -webkit-box;
@@ -671,7 +671,8 @@ footer a {
 }
 .date {
   color: #a0a0a0;
-  margin-bottom: 1.142857142857143rem;
+  margin-bottom: 1rem;
+  font-style: italic;
 }
 .home .date {
   margin-bottom: 0;
@@ -680,7 +681,7 @@ footer a {
   font-size: 1rem;
 }
 .home .tags {
-  margin-bottom: 1.142857142857143rem;
+  margin-bottom: 1rem;
 }
 .tag-link {
   background-color: #a7b0b3;
@@ -720,7 +721,7 @@ footer a {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin: 1.142857142857143rem 0;
+  margin: 1rem 0;
   -webkit-flex-basis: 50%;
   flex-basis: 50%;
 }
@@ -742,7 +743,7 @@ footer a {
   border: 1px solid rgba(255,255,255,0.1);
   background-color: #14181a;
   border-radius: 0.5rem;
-  padding: 1.142857142857143rem;
+  padding: 1rem;
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
