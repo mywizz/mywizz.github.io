@@ -465,6 +465,9 @@ footer a {
   padding: 1.828571428571429rem;
   position: relative;
 }
+.article .fb-comments {
+  background-color: #eee;
+}
 @media screen and (max-width: 479px) {
   .article {
     padding: 2.285714285714286rem;
