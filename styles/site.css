@@ -158,6 +158,20 @@ a {
 a:hover {
   color: #db4d52;
 }
+.comments {
+  background-color: #14181a;
+  padding: 1.142857142857143rem;
+  margin-top: 2.285714285714286rem;
+  position: relative;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 0.5rem;
+}
+.comments .fb-comments {
+  background-color: #eee !important;
+}
+.comments .fb-comments span {
+  background-color: #eee !important;
+}
 #backToTop {
   position: fixed;
   z-index: 999;
@@ -236,12 +250,8 @@ a:hover {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
-@media screen and (max-width: 479px) {
-  .container {
-    width: 100%;
-    padding: 0 1rem;
-  }
+  padding: 0 1rem;
+  width: 100%;
 }
 .header {
   padding: 1.714285714285714rem 0 1rem;
@@ -273,7 +283,6 @@ a:hover {
 .avatar {
   width: 4rem;
   height: 4rem;
-  background-color: #fff;
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
@@ -290,10 +299,11 @@ a:hover {
   -ms-flex-pack: center;
   -webkit-justify-content: center;
   justify-content: center;
-  outline: 3px solid #15181a;
-  outline-offset: -3px;
+  outline: 2px solid #15181a;
+  outline-offset: -4px;
   -webkit-flex-shrink: 0;
   flex-shrink: 0;
+  border: 2px solid rgba(255,255,255,0.1);
 }
 .avatar img {
   width: 100%;
@@ -320,7 +330,8 @@ a:hover {
   padding: 0.3rem 0;
 }
 .author-name {
-  font-size: 1.142857142857143rem;
+  font-size: 1.428571428571428rem;
+  font-weight: bold;
 }
 .about-me {
   color: #a0a0a0;
@@ -353,7 +364,6 @@ a:hover {
   color: #db4d52;
 }
 footer {
-  padding-left: 10px;
   color: #a0a0a0;
   font-size: 12px;
 }
@@ -362,7 +372,7 @@ footer a {
   font-weight: bold;
 }
 .rights {
-  padding: 1.142857142857143rem 0;
+  padding: 1.142857142857143rem 1rem;
 }
 .about-me-mask {
   position: fixed;
@@ -460,27 +470,12 @@ footer a {
   -ms-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
-.comments {
+.article {
+  border-radius: 0.5rem;
   background-color: #14181a;
   padding: 1.142857142857143rem;
-  margin-top: 1.828571428571429rem;
   position: relative;
-  border: 1px solid rgba(255,255,255,0.15);
-}
-.comments .fb-comments {
-  background-color: #eee;
-}
-.article {
-  background-color: #14181a;
-  padding: 1.828571428571429rem;
-  position: relative;
-  border: 1px solid rgba(255,255,255,0.15);
-}
-@media screen and (max-width: 479px) {
-  .article {
-    padding: 2.285714285714286rem;
-    line-height: 2rem;
-  }
+  border: 1px solid rgba(255,255,255,0.1);
 }
 .home .article:hover {
   -webkit-box-shadow: 0px 10px 20px rgba(0,0,0,0.07);
@@ -560,11 +555,6 @@ footer a {
   padding-left: 0.2rem;
   color: #db4d52;
 }
-@media screen and (max-width: 479px) {
-  .article li {
-    font-size: 1.142857142857143rem;
-  }
-}
 .article li .li-inner {
   color: #d2cfca;
 }
@@ -583,23 +573,12 @@ footer a {
 .home .title {
   display: block;
 }
-@media screen and (max-width: 479px) {
-  .post .title {
-    line-height: 2.8rem;
-    font-size: 1.6rem;
-  }
-}
 .title:after {
   display: none;
 }
 .content p {
   line-height: 2rem;
   margin: 2rem 0;
-}
-@media screen and (max-width: 479px) {
-  .content p {
-    font-size: 1.142857142857143rem;
-  }
 }
 .content h1,
 .content h2,
@@ -739,7 +718,7 @@ footer a {
   margin: 1.142857142857143rem 0;
   -webkit-flex-basis: 50%;
   flex-basis: 50%;
-  border: 1px solid rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.1);
 }
 @media screen and (max-width: 479px) {
   .post-archive {
