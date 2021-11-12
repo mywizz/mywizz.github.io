@@ -460,13 +460,21 @@ footer a {
   -ms-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
+.comments {
+  background-color: #14181a;
+  padding: 1.142857142857143rem;
+  margin-top: 1.828571428571429rem;
+  position: relative;
+  border: 1px solid rgba(255,255,255,0.15);
+}
+.comments .fb-comments {
+  background-color: #eee;
+}
 .article {
   background-color: #14181a;
   padding: 1.828571428571429rem;
   position: relative;
-}
-.article .fb-comments {
-  background-color: #eee;
+  border: 1px solid rgba(255,255,255,0.15);
 }
 @media screen and (max-width: 479px) {
   .article {
@@ -731,6 +739,7 @@ footer a {
   margin: 1.142857142857143rem 0;
   -webkit-flex-basis: 50%;
   flex-basis: 50%;
+  border: 1px solid rgba(255,255,255,0.15);
 }
 @media screen and (max-width: 479px) {
   .post-archive {
