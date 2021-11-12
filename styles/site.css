@@ -290,8 +290,10 @@ a:hover {
   -ms-flex-pack: center;
   -webkit-justify-content: center;
   justify-content: center;
-  outline: 3px solid #fff;
+  outline: 3px solid #15181a;
   outline-offset: -3px;
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
 }
 .avatar img {
   width: 100%;
@@ -330,11 +332,11 @@ a:hover {
   display: -ms-flexbox;
   display: box;
   display: flex;
-  -webkit-box-pack: end;
-  -moz-box-pack: end;
-  -ms-flex-pack: end;
-  -webkit-justify-content: flex-end;
-  justify-content: flex-end;
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
   margin-bottom: 1rem;
 }
 .navigation li {
