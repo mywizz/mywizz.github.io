@@ -164,21 +164,21 @@ a:hover {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background-color: #14181a;
-  padding: 1rem;
+  padding: 0.6rem;
   margin-top: 2rem;
   position: relative;
   border: 1px solid rgba(255,255,255,0.1);
   border-radius: 0.5rem;
 }
-.comments .fb-comments {
+.comments #lv-container {
   background-color: #eee !important;
+  border-radius: 0.3rem;
   width: 100%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
-.comments .fb-comments span {
   background-color: #eee !important;
+  padding: 0 0.5rem;
 }
 .container {
   width: 48rem;
