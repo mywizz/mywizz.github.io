@@ -6,7 +6,7 @@
   <link href="https://blog.mywizz.io/atom.xml" rel="self"/>
   
   <link href="https://blog.mywizz.io/"/>
-  <updated>2021-11-12T17:15:13.346Z</updated>
+  <updated>2021-11-15T07:37:35.726Z</updated>
   <id>https://blog.mywizz.io/</id>
   
   <author>
@@ -17,32 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>헬로</title>
-    <link href="https://blog.mywizz.io/2021/11/13/%ED%97%AC%EB%A1%9C/"/>
-    <id>https://blog.mywizz.io/2021/11/13/%ED%97%AC%EB%A1%9C/</id>
-    <published>2021-11-12T17:15:10.000Z</published>
-    <updated>2021-11-12T17:15:13.346Z</updated>
-    
-    <content type="html"><![CDATA[<p>월드</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;월드&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>hexo.io + Github Pages, 해치웠나?</title>
     <link href="https://blog.mywizz.io/2021/11/11/hexo-io-Github-Pages-%ED%95%B4%EC%B9%98%EC%9B%A0%EB%82%98/"/>
     <id>https://blog.mywizz.io/2021/11/11/hexo-io-Github-Pages-%ED%95%B4%EC%B9%98%EC%9B%A0%EB%82%98/</id>
     <published>2021-11-11T14:23:18.000Z</published>
-    <updated>2021-11-11T15:00:32.505Z</updated>
+    <updated>2021-11-15T07:37:35.726Z</updated>
     
     <content type="html"><![CDATA[<p><a href="https://hexo.io/">Hexo</a>를 Github Pages에 연결하고 도메인도 줬다. 잘 되려나?</p>]]></content>
     
